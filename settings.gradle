@@ -1,0 +1,2 @@
+include ':app', ':labaddlibrary'
+rootProject.name='LabTest'
