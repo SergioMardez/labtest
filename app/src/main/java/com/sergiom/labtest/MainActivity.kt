@@ -29,6 +29,7 @@ class MainActivity : AppCompatActivity(), DataState {
         //Banner - Add the banner programmatically invisible to show it when is load
         adView = AdView(this)
         adView.visibility = View.INVISIBLE
+        adView.id = R.id.banner
 
         //Initialize the banner with the library here. bannerInit.state for the interface delegate
         val bannerInit = BannerInitializer(this, adView, "ca-app-pub-3940256099942544/6300978111")
